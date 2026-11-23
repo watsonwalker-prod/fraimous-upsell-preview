@@ -1,0 +1,18 @@
+/* More From This Collection — under the buy box */
+.pdp-info{min-width:0}
+.mf{margin:1.35rem 0 0;padding:1.2rem 0 0;border-top:1px solid color-mix(in srgb,currentColor 14%,transparent);min-width:0;max-width:100%}
+.mf-title{margin:0 0 .85rem;font-size:clamp(1.15rem,2.2vw,1.45rem);line-height:1.15;text-wrap:balance;letter-spacing:-.01em}
+.mf-scroller{display:flex;gap:.75rem;overflow-x:auto;overflow-y:hidden;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding:0 .15rem .65rem 0;scrollbar-width:thin;max-width:100%}
+.mf-card{flex:0 0 72%;max-width:196px;scroll-snap-align:start;scroll-snap-stop:always;text-decoration:none;color:inherit;display:block;min-width:0}
+.mf-imgwrap{display:block;overflow:hidden;border-radius:2px;background:color-mix(in srgb,currentColor 8%,transparent)}
+.mf-card img{width:100%;aspect-ratio:4/5;object-fit:cover;display:block;transition:transform .35s ease}
+@media (hover:hover){.mf-card:hover img{transform:scale(1.04)}}
+.mf-name{display:block;margin:.45rem 0 .15rem;font-size:1.05rem;line-height:1.2;text-wrap:balance}
+.mf-price{display:block;opacity:.7;font-size:.78rem;letter-spacing:.04em}
+@media (min-width:700px){.mf-card{flex-basis:46%;max-width:168px}}
+.mf-hover{position:fixed;z-index:80;width:min(260px,72vw);padding:.55rem;background:#f4f1ec;color:#1a100c;border-radius:2px;box-shadow:0 16px 40px rgba(0,0,0,.28);pointer-events:none}
+.mf-hover img{width:100%;aspect-ratio:4/5;object-fit:cover;display:block}
+.mf-hover-title{margin:.45rem 0 .15rem;font-family:Syne,sans-serif;font-size:1.05rem;line-height:1.15;text-wrap:balance}
+.mf-hover-cta{margin:0;font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;opacity:.65}
+.mf-nudge{margin:.85rem 0 0;font-size:.92rem;line-height:1.4;text-wrap:balance}
+.mf-nudge a{color:inherit;text-underline-offset:.15em}
